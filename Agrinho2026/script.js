@@ -527,14 +527,5 @@ if ('serviceWorker' in navigator) {
 
 
 console.log(`
-╔════════════════════════════════════════╗
-║     🌱 AGRINHO 2026 - Site Ativo      ║
-║     Módulos Carregados:                ║
-║     ✓ Menu Mobile                      ║
-║     ✓ Contadores Animados              ║
-║     ✓ Validação de Formulário          ║
-║     ✓ Scroll Suave                     ║
-║     ✓ Lazy Loading                     ║
-║     ✓ Analytics                        ║
-╚════════════════════════════════════════╝
+tudo funcionando!
 `);

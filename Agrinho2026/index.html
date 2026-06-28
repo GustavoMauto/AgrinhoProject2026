@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agrinho 2026 - Programa de educação e sustentabilidade agrícola">
+    <meta name="keywords" content="agrinho, agricultura, sustentabilidade, educação, 2026">
+    <meta name="author" content="Agrinho 2026">
+    <meta name="theme-color" content="#2d5016">
+    <title>Agrinho 2026 - Educação e Sustentabilidade Agrícola</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="Navegação principal">
+                <div class="logo">
+                    <a href="#home" aria-label="Agrinho 2026 - Home">
+                        <span class="logo-icon">🌱</span>
+                        <span class="logo-text">Agrinho 2026</span>
+                    </a>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <button class="accessibility-toggle" id="accessibilityToggle" aria-label="Abrir menu de acessibilidade" aria-expanded="false">
+                    Acessibilidade
+                </button>
+                <ul class="nav-menu" id="navMenu" role="menubar">
+                    <li><a href="#sobre" role="menuitem">Sobre</a></li>
+                    <li><a href="#objetivos" role="menuitem">Objetivos</a></li>
+                    <li><a href="#atividades" role="menuitem">Atividades</a></li>
+                    <li><a href="#video" role="menuitem">Vídeo</a></li>
+                    <li><a href="#galeria" role="menuitem">Galeria</a></li>
+                    <li><a href="#contato" role="menuitem">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="accessibility-header-panel" id="accessibilityHeaderPanel" aria-label="Controles de acessibilidade">
+                <div class="accessibility-controls" role="toolbar" aria-label="Controles de acessibilidade">
+                    <button type="button" id="toggleTheme" class="accessibility-btn" aria-pressed="false">Modo Escuro</button>
+                    <button type="button" id="toggleContrast" class="accessibility-btn" aria-pressed="false">Alto Contraste</button>
+                    <button type="button" id="increaseText" class="accessibility-btn">A+ Fonte</button>
+                    <button type="button" id="decreaseText" class="accessibility-btn">A- Fonte</button>
+                    <button type="button" id="resetAccessibility" class="accessibility-btn">Restaurar</button>
+                </div>
+                <div id="accessibilityMessage" class="accessibility-message" role="status" aria-live="polite"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home" role="region" aria-label="Seção principal">
+        <div class="hero-content">
+            <h1 class="hero-title">Agrinho 2026</h1>
+            <p class="hero-subtitle">Educação, Sustentabilidade e Inovação no Campo</p>
+            <a href="#sobre" class="btn btn-primary" role="button">Saiba Mais</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section class="sobre" id="sobre" role="region" aria-labelledby="sobre-titulo">
+        <div class="container">
+            <h2 id="sobre-titulo" class="section-title">Sobre o Agrinho</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>O <strong>Agrinho 2026</strong> é um programa de educação ambiental focado em sustentabilidade agrícola e desenvolvimento rural. Promovemos práticas inovadoras e ecologicamente responsáveis no setor agrícola.</p>
+                    <p>Nosso objetivo é conectar escolas, comunidades e produtores rurais em torno de princípios de sustentabilidade, educação ambiental e preservação do meio ambiente.</p>
+                </div>
+                <div class="sobre-imagem">
+                    <img src="img/Imagem representativa do Agrinho - plantação sustentável.jpg" alt="Imagem representativa do Agrinho - plantação sustentável" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-section" id="video" role="region" aria-labelledby="video-titulo">
+        <div class="container">
+            <h2 id="video-titulo" class="section-title">O Agrinho em Vídeo</h2>
+            <div class="video-grid">
+                <div class="video-wrapper">
+                    <video controls aria-label="Agricultura sustentável" preload="metadata" poster="img/video-poster.jpg">
+                        <source src="movie/QUAIS SÃO OS OBJETIVOS DA AGRICULTURA SUSTENTÁVEL - TV Brasil Central.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeo HTML5. <a href="movie/QUAIS SÃO OS OBJETIVOS DA AGRICULTURA SUSTENTÁVEL - TV Brasil Central.mp4">Baixar vídeo</a>.
+                    </video>
+                    <div class="video-credits video-credits-header" aria-label="Créditos do vídeo">
+                        <p><strong>Créditos do vídeo:</strong> TV Brasil Central - YouTube</p>
+                    </div>
+                </div>
+                <div class="video-description">
+                    <p>Assista ao vídeo para conhecer o propósito do Agrinho, como o programa incentiva a agricultura sustentável.</p>
+                    <p>A agricultura sustentável é uma abordagem que busca equilibrar a produção de alimentos com a preservação dos recursos naturais e a proteção do meio ambiente.</p>
+                    <p>O Agrinho promove práticas agrícolas que respeitam a biodiversidade, conservam o solo e a água, e reduzem o uso de agrotóxicos, contribuindo para um futuro mais sustentável.</p>
+                    <p>Ao adotar a agricultura sustentável, podemos garantir a segurança alimentar, proteger os ecossistemas e melhorar a qualidade de vida das comunidades rurais.</p>
+                    <p>Junte-se a nós nessa jornada de aprendizado e transformação para um mundo mais verde e saudável!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="objetivos" id="objetivos" role="region" aria-labelledby="objetivos-titulo">
+        <div class="container">
+            <h2 id="objetivos-titulo" class="section-title">Nossos Objetivos</h2>
+            <div class="objetivos-grid">
+                <div class="objetivo-card" role="article">
+                    <div class="objetivo-icon">🌍</div>
+                    <h3>Sustentabilidade</h3>
+                    <p>Promover práticas agrícolas sustentáveis que respeitem o meio ambiente e preservem os recursos naturais para futuras gerações.</p>
+                </div>
+                <div class="objetivo-card" role="article">
+                    <div class="objetivo-icon">📚</div>
+                    <h3>Educação</h3>
+                    <p>Oferecer recursos e conhecimento sobre agricultura moderna, ecologia e sustentabilidade para escolas e comunidades.</p>
+                </div>
+                <div class="objetivo-card" role="article">
+                    <div class="objetivo-icon">🤝</div>
+                    <h3>Comunidade</h3>
+                    <p>Conectar produtores rurais, educadores e alunos em uma rede colaborativa de aprendizado e desenvolvimento.</p>
+                </div>
+                <div class="objetivo-card" role="article">
+                    <div class="objetivo-icon">🚀</div>
+                    <h3>Inovação</h3>
+                    <p>Estimular a adoção de tecnologias verdes e práticas inovadoras no campo para maior produtividade e eficiência.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="atividades" id="atividades" role="region" aria-labelledby="atividades-titulo">
+        <div class="container">
+            <h2 id="atividades-titulo" class="section-title">Nossas Atividades</h2>
+            <div class="atividades-list">
+                <div class="atividade-item" role="article">
+                    <div class="atividade-numero">01</div>
+                    <h3>Workshops Educacionais</h3>
+                    <p>Palestras e oficinas sobre técnicas de agricultura sustentável, compostagem e produção orgânica.</p>
+                </div>
+                <div class="atividade-item" role="article">
+                    <div class="atividade-numero">02</div>
+                    <h3>Hortas Comunitárias</h3>
+                    <p>Implantação e manutenção de hortas em escolas e comunidades para o aprendizado prático e produção local.</p>
+                </div>
+                <div class="atividade-item" role="article">
+                    <div class="atividade-numero">03</div>
+                    <h3>Projetos Ambientais</h3>
+                    <p>Iniciativas de reflorestamento, preservação de nascentes e proteção da biodiversidade local.</p>
+                </div>
+                <div class="atividade-item" role="article">
+                    <div class="atividade-numero">04</div>
+                    <h3>Feiras e Eventos</h3>
+                    <p>Eventos anuais para divulgação de projetos, troca de experiências e premiação de iniciativas destacadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="galeria" id="galeria" role="region" aria-labelledby="galeria-titulo">
+        <div class="container">
+            <h2 id="galeria-titulo" class="section-title">Galeria de Projetos</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item" role="article" aria-label="Projeto de horta escolar">
+                    <img src="img/crianças em uma horta escolar.jpg" alt="Crianças em uma horta escolar" loading="lazy">
+                    <div class="galeria-overlay">
+                        <h3>Horta Escolar</h3>
+                    </div>
+                    <div class="galeria-caption">
+                        <h3>Projeto de Horta</h3>
+                        <p>Criando espaços de cultivo nas escolas para ensinar práticas de plantio e alimentação saudável.</p>
+                    </div>
+                </div>
+                <div class="galeria-item" role="article" aria-label="Projeto de compostagem">
+                    <img src="img/compostagem.jpg" alt="Sistema de compostagem orgânica" loading="lazy">
+                    <div class="galeria-overlay">
+                        <h3>Compostagem</h3>
+                    </div>
+                    <div class="galeria-caption">
+                        <h3>Projeto de Compostagem</h3>
+                        <p>Transformando resíduos em fertilizante natural para enriquecer o solo das hortas comunitárias.</p>
+                    </div>
+                </div>
+                <div class="galeria-item" role="article" aria-label="Projeto de reflorestamento">
+                    <img src="img/area florestada com muda.jpg" alt="Área reflorestada com mudas" loading="lazy">
+                    <div class="galeria-overlay">
+                        <h3>Reflorestamento</h3>
+                    </div>
+                    <div class="galeria-caption">
+                        <h3>Projeto de Reflorestamento</h3>
+                        <p>Recuperando áreas degradadas com mudas nativas e preservando a biodiversidade local.</p>
+                    </div>
+                </div>
+                <div class="galeria-item" role="article" aria-label="Projeto de agricultura orgânica">
+                    <img src="img/plantação agricula organica.jpg" alt="Plantação de agricultura orgânica" loading="lazy">
+                    <div class="galeria-overlay">
+                        <h3>Agricultura Orgânica</h3>
+                    </div>
+                    <div class="galeria-caption">
+                        <h3>Agricultura Orgânica</h3>
+                        <p>Promovendo cultivo sem agrotóxicos e valorizando práticas responsáveis no campo.</p>
+                    </div>
+                </div>
+                <div class="galeria-item" role="article" aria-label="Projeto com biodiversidade">
+                    <img src="img/area com plantação diversificada.jpg" alt="Área com plantações diversificadas" loading="lazy">
+                    <div class="galeria-overlay">
+                        <h3>Biodiversidade</h3>
+                    </div>
+                    <div class="galeria-caption">
+                        <h3>Biodiversidade</h3>
+                        <p>Integrando várias espécies de plantas para melhorar a saúde do solo e proteger o ambiente.</p>
+                    </div>
+                </div>
+                <div class="galeria-item" role="article" aria-label="Projeto de educação ambiental">
+                    <img src="img/area de educação ambiental.jpg" alt="Atividade de educação ambiental" loading="lazy">
+                    <div class="galeria-overlay">
+                        <h3>Educação Ambiental</h3>
+                    </div>
+                    <div class="galeria-caption">
+                        <h3>Educação Ambiental</h3>
+                        <p>Trabalhando com alunos para criar consciência ambiental e estimular atitudes sustentáveis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="estatisticas" role="region" aria-label="Estatísticas do Agrinho">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" role="article">
+                    <div class="stat-number" data-target="150">0</div>
+                    <p class="stat-label">Escolas Participantes</p>
+                </div>
+                <div class="stat-card" role="article">
+                    <div class="stat-number" data-target="5000">0</div>
+                    <p class="stat-label">Alunos Envolvidos</p>
+                </div>
+                <div class="stat-card" role="article">
+                    <div class="stat-number" data-target="50">0</div>
+                    <p class="stat-label">Hortas Criadas</p>
+                </div>
+                <div class="stat-card" role="article">
+                    <div class="stat-number" data-target="10000">0</div>
+                    <p class="stat-label">Árvores Plantadas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato" role="region" aria-labelledby="contato-titulo">
+        <div class="container">
+            <h2 id="contato-titulo" class="section-title">Entre em Contato</h2>
+            <form class="formulario-contato" id="formContato" novalidate>
+                <div class="form-group">
+                    <label for="nome">Nome Completo <span class="required" aria-label="obrigatório">*</span></label>
+                    <input type="text" id="nome" name="nome" required placeholder="Seu nome" aria-describedby="nome-help">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email <span class="required" aria-label="obrigatório">*</span></label>
+                    <input type="email" id="email" name="email" required placeholder="seu@email.com" aria-describedby="email-help">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX">
+                </div>
+                <div class="form-group">
+                    <label for="instituicao">Instituição</label>
+                    <input type="text" id="instituicao" name="instituicao" placeholder="Escola, cooperativa, etc.">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem <span class="required" aria-label="obrigatório">*</span></label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Sua mensagem aqui..." aria-describedby="mensagem-help"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" role="button">Enviar Mensagem</button>
+                <div id="formMessage" class="form-message" role="status" aria-live="polite"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Agrinho 2026</h4>
+                    <p>Comprometido com a educação e sustentabilidade agrícola.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#objetivos">Objetivos</a></li>
+                        <li><a href="#atividades">Atividades</a></li>
+                        <li><a href="#video">Vídeo</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/educacaopr/" aria-label="Facebook">f</a>
+                        <a href="https://www.instagram.com/sistema.faep/" aria-label="Instagram">📷</a>
+                        <a href="https://x.com/SistemaFAEP" aria-label="Twitter">𝕏</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Agrinho. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
